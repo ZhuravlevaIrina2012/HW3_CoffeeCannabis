@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+.header{
+    box-sizing: border-box;
+    height: 600px;
+    background-image: url("../Images/jose-luis-sanchez-pereyra-14KbjlzBdY4-unsplash.jpg");
+    background-position: center;
+    padding: 150px;
+}
+
+.header > .text_block > h1, .about{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.header > .text_block > h1{
+    font-size: 100px;
+    font-family: 'Merienda', cursive;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.header > .text_block > .about{
+    padding-bottom: 130px;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+.btn{
+    color: white;
+    border: 1px solid white;
+    margin-top: -100px;
+    margin-left: 440px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #214e34;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.types{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.types > .sativa, .indica, .ruderalis{
+    position: relative;
+    box-sizing: border-box;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.text1, .image1, .text2, .image2, .text3, .image3{
+    width: 48%;
+}
+
+.text1, .text2, .text3{
+    padding-left: 10px;
+    text-align: justify;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+a{
+    border: 1px solid black;
+    color: black;
+    margin-bottom: 60px;
+}
+
+a:hover{
+    background: black;
+    color: white;
+}
+
+.image1, .text2, .image3{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.text1, .image2, .text3{
+    padding-right: 30px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #214e34;
+    padding-top: 15px;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+    padding-bottom: 0;
+}
